@@ -20,11 +20,11 @@
             <asp:Label ID="secondnum" runat="server" Text="Second Number : "></asp:Label>
             <asp:TextBox ID="secondnumber" runat="server"></asp:TextBox><br />
             <div CssClass="container">
-                <div CssClass="row">
-                    <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Add" OnClick="add_num" /><br />
-                    <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Subtract" OnClick="subtract_num" /><br />
-                    <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Multiply" OnClick="multiply_num" /><br />
-                    <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Division" OnClick="divide_num" /><br />
+                <div CssClass=" d-flex flex-row justify-content-around col-sm-10">
+                    <asp:Button CssClass="btn btn-success my-2 " runat="server" Text="Add" OnClick="add_num" />
+                    <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Subtract" OnClick="subtract_num" />
+                    <asp:Button CssClass="btn btn-success my-2 " runat="server" Text="Multiply" OnClick="multiply_num" />
+                    <asp:Button CssClass="btn btn-success my-2 " runat="server" Text="Division" OnClick="divide_num" />
                 </div>
                 
             </div>
