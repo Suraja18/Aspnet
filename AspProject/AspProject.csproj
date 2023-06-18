@@ -181,7 +181,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="showdata.aspx" />
+    <Content Include="Showdata.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -230,12 +230,12 @@
     <Compile Include="SampleProject.aspx.designer.cs">
       <DependentUpon>SampleProject.aspx</DependentUpon>
     </Compile>
-    <Compile Include="showdata.aspx.cs">
-      <DependentUpon>showdata.aspx</DependentUpon>
+    <Compile Include="Showdata.aspx.cs">
+      <DependentUpon>Showdata.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="showdata.aspx.designer.cs">
-      <DependentUpon>showdata.aspx</DependentUpon>
+    <Compile Include="Showdata.aspx.designer.cs">
+      <DependentUpon>Showdata.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

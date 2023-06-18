@@ -19,7 +19,7 @@
             <asp:TextBox type="number" ID="firstnumber" runat="server"></asp:TextBox><br />
             <asp:Label ID="secondnum" runat="server" Text="Second Number : "></asp:Label>
             <asp:TextBox type="number" ID="secondnumber" runat="server"></asp:TextBox><br />
-            <div CssClass="container">
+<%--            <div CssClass="container">
                 <div CssClass=" d-flex flex-row justify-content-around col-sm-10">
                     <asp:Button CssClass="btn btn-success my-2 " runat="server" Text="Add" OnClick="add_num" />
                     <asp:Button CssClass="btn btn-success my-2" runat="server" Text="Subtract" OnClick="subtract_num" />
@@ -27,10 +27,10 @@
                     <asp:Button CssClass="btn btn-success my-2 " runat="server" Text="Division" OnClick="divide_num" />
                 </div>
                 
-            </div>
+            </div>--%>
             
             <asp:Label ID="abc" runat="server" Text="The result is : "></asp:Label>
-            <asp:TextBox ID="result" runat="server" ReadOnly></asp:TextBox>
+            <asp:TextBox ID="result" runat="server" ></asp:TextBox>
         </div>
     </form>
 </body>

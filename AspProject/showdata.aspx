@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="showdata.aspx.cs" Inherits="AspProject.showdata" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Showdata.aspx.cs" Inherits="AspProject.showdata" %>
 
 <!DOCTYPE html>
 
