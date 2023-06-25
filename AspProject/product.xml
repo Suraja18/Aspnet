@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product id="1001">
+    <productName>3 in 1 Coffee</productName>
+    <productPrice>6.99</productPrice>
+  </product>
+  <product id="2">
+    <productName>Coke 1.5L150</productName>
+  </product>
+  <product id="3">
+    <productName>Sprite 1.5L</productName>
+  </product>
+  <product id="3">
+    <productName>Sprite 1.5L</productName>
+    <productPrice>Rs 150</productPrice>
+  </product>
+  <product id="3">
+    <productName>Sprite 1.5L</productName>
+    <productPrice>Rs 150</productPrice>
+  </product>
+</products>
