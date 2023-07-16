@@ -133,6 +133,8 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\Dynamic.ascx" />
+    <Content Include="Pages\Index.aspx" />
     <Content Include="ParseData.aspx" />
     <Content Include="SampleProject.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -165,6 +167,7 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Student.aspx" />
     <Content Include="WriteNewXML.aspx" />
+    <Content Include="Pages\Header.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -232,6 +235,27 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Dynamic.ascx.cs">
+      <DependentUpon>Dynamic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Dynamic.ascx.designer.cs">
+      <DependentUpon>Dynamic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Header.Master.cs">
+      <DependentUpon>Header.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Header.Master.designer.cs">
+      <DependentUpon>Header.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="ParseData.aspx.cs">
       <DependentUpon>ParseData.aspx</DependentUpon>
